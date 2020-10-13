@@ -1,19 +1,10 @@
-def solution(a, b):
+def solution(phone_number):
+    
+    answer = ''
 
-    answer = 0
-    # print("a={}, b={}".format(a,b))
-    
-    if a <= b:
-         for i in range(a, b+1):
-            # print("b가 크다")
-            # print(i)
-            answer += i
-            # print(answer)
-    else:
-        for i in range(a, b-1, -1):
-            # print("a가 크다")
-            # print(i)
-            answer += i
-            # print(answer)
-    
+    for i in phone_number[0:-4]:
+        answer += "*"
+    for j in phone_number[-4:]:
+        answer += j
+        
     return answer
