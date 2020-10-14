@@ -23,10 +23,10 @@ def solution(x):
         
     #============================================================
     
-    # [ 방법 3 :for 문을 활용한 매개변수 자릿수 합 산출]- success
+    # [ 방법 3 :for 문을 활용한 매개변수 자릿수 합 산출]-  success
     
     total = 0
-    
+
     for i in str(x):
         total += int(i)
         answer = True if x % total == 0 else False

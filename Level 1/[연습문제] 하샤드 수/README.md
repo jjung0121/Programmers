@@ -1,5 +1,5 @@
 
-# [ 하샤드 수 ](https://programmers.co.kr/learn/courses/30/lessons/12947) #
+# [하샤드 수](https://programmers.co.kr/learn/courses/30/lessons/12947) #
 
 
 
@@ -12,7 +12,7 @@
 
 ### * 입출력 예 ###  
 
-a | return
+x | return
 :-:|:-:
 10 | true
 12 | true
